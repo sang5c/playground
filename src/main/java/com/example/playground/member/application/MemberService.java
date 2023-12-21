@@ -1,10 +1,11 @@
 package com.example.playground.member.application;
 
 import com.example.playground.member.domain.Member;
-import com.example.playground.member.presentation.response.MemberResponse;
-import com.example.playground.member.presentation.response.MembersResponse;
-import com.example.playground.member.infra.MemberRepository;
-import com.example.playground.member.presentation.request.MemberRegisterRequest;
+import com.example.playground.member.domain.MemberRepository;
+import com.example.playground.member.ui.response.MemberResponse;
+import com.example.playground.member.ui.response.MembersResponse;
+import com.example.playground.member.domain.JpaMemberRepository;
+import com.example.playground.member.ui.request.MemberRegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -38,6 +39,6 @@ public class MemberService {
 
     @Transactional
     public void deleteMember(Long id) {
-        memberRepository.deleteById(id);
+        // TODO
     }
 }

@@ -1,9 +1,9 @@
-package com.example.playground.member.presentation;
+package com.example.playground.member.ui;
 
 import com.example.playground.member.application.MemberService;
-import com.example.playground.member.presentation.response.MemberResponse;
-import com.example.playground.member.presentation.response.MembersResponse;
-import com.example.playground.member.presentation.request.MemberRegisterRequest;
+import com.example.playground.member.ui.response.MemberResponse;
+import com.example.playground.member.ui.response.MembersResponse;
+import com.example.playground.member.ui.request.MemberRegisterRequest;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

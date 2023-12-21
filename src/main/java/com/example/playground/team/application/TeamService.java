@@ -1,10 +1,10 @@
 package com.example.playground.team.application;
 
 import com.example.playground.team.domain.Team;
-import com.example.playground.team.presentation.response.TeamResponse;
-import com.example.playground.team.presentation.response.TeamsResponse;
-import com.example.playground.team.infra.TeamRepository;
-import com.example.playground.team.presentation.request.TeamRegisterRequest;
+import com.example.playground.team.domain.TeamRepository;
+import com.example.playground.team.ui.request.TeamRegisterRequest;
+import com.example.playground.team.ui.response.TeamResponse;
+import com.example.playground.team.ui.response.TeamsResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

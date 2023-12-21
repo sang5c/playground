@@ -1,9 +1,9 @@
-package com.example.playground.team.presentation;
+package com.example.playground.team.ui;
 
 import com.example.playground.team.application.TeamService;
-import com.example.playground.team.presentation.request.TeamRegisterRequest;
-import com.example.playground.team.presentation.response.TeamResponse;
-import com.example.playground.team.presentation.response.TeamsResponse;
+import com.example.playground.team.ui.request.TeamRegisterRequest;
+import com.example.playground.team.ui.response.TeamResponse;
+import com.example.playground.team.ui.response.TeamsResponse;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 

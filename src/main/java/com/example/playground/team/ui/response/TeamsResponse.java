@@ -1,4 +1,4 @@
-package com.example.playground.team.presentation.response;
+package com.example.playground.team.ui.response;
 
 import com.example.playground.team.domain.Team;
 import lombok.Getter;

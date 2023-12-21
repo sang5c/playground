@@ -1,4 +1,4 @@
-package com.example.playground.member.presentation.response;
+package com.example.playground.member.ui.response;
 
 import com.example.playground.member.domain.Member;
 

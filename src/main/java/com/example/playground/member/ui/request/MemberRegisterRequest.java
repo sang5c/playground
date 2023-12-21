@@ -1,4 +1,4 @@
-package com.example.playground.member.presentation.request;
+package com.example.playground.member.ui.request;
 
 import lombok.Getter;
 

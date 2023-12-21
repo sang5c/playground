@@ -6,7 +6,7 @@ import lombok.Getter;
 
 @Getter
 @Entity
-public class Member {
+public class Member { // TODO: BaseEntity
 
     @Id
     @GeneratedValue

@@ -1,6 +1,6 @@
-package com.example.playground.team.presentation.response;
+package com.example.playground.team.ui.response;
 
-import com.example.playground.member.presentation.response.MembersResponse;
+import com.example.playground.member.ui.response.MembersResponse;
 import com.example.playground.team.domain.Team;
 import lombok.Getter;
 

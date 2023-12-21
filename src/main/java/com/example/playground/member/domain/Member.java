@@ -3,6 +3,7 @@ package com.example.playground.member.domain;
 import com.example.playground.team.domain.Team;
 import jakarta.persistence.*;
 import lombok.Getter;
+import org.springframework.util.Assert;
 
 @Getter
 @Entity
@@ -22,6 +23,7 @@ public class Member { // TODO: BaseEntity
     }
 
     private Member(String name) {
+        Assert.hasText(name, "name must not be empty");
         this.name = name;
     }
 
